@@ -95,6 +95,7 @@ $primary-color--5: rgba(0, 0, 0, 0.5);
     justify-content: center;
     cursor: pointer;
     margin: 0;
+    z-index: 999999;
 
     &--wrapper {
       width: 4rem;
@@ -103,6 +104,7 @@ $primary-color--5: rgba(0, 0, 0, 0.5);
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
+      z-index: 999999;
     }
     &--line {
       width: 1.9rem;
@@ -118,9 +120,8 @@ $primary-color--5: rgba(0, 0, 0, 0.5);
     background-color: $primary-color--5;
     font-size: 1.5rem;
     list-style-type: none;
-    padding: 1.5rem 1.5rem;
+    padding: 2.1rem 1.5rem;
     display: none;
-    margin-top: 1.4rem;
     animation: slideSmoothDown 0.4s 1;
     transition: animation ease-in-out 0.4s;
     &--wrapper {
@@ -142,14 +143,12 @@ $primary-color--5: rgba(0, 0, 0, 0.5);
 
 .rotateDown {
   transform: rotate(45deg) translateY(0.4rem) translateX(0.4rem);
-
   @media only screen and (max-width: $small) {
     transform: rotate(45deg) translateY(0.5rem) translateX(0.5rem);
   }
 }
 .rotateUp {
   transform: rotate(-45deg) translateY(-0.4rem) translateX(0.4rem);
-
   @media only screen and (max-width: $small) {
     transform: rotate(-45deg) translateY(-0.5rem) translateX(0.5rem);
   }

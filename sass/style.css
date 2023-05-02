@@ -222,6 +222,7 @@ body {
           justify-content: center;
   cursor: pointer;
   margin: 0;
+  z-index: 999999;
 }
 
 .smallNav__menu--wrapper {
@@ -240,6 +241,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  z-index: 999999;
 }
 
 .smallNav__menu--line {
@@ -258,9 +260,8 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
   list-style-type: none;
-  padding: 1.5rem 1.5rem;
+  padding: 2.1rem 1.5rem;
   display: none;
-  margin-top: 1.4rem;
   -webkit-animation: slideSmoothDown 0.4s 1;
           animation: slideSmoothDown 0.4s 1;
   -webkit-transition: -webkit-animation ease-in-out 0.4s;
