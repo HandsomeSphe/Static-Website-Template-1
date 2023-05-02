@@ -12,3 +12,9 @@ small_nav_menu.addEventListener("click", (e) => {
   showRemoveIcon();
   small_nav_links.classList.toggle("revealLinks");
 });
+
+/**** Slider from Tailwind****/
+
+// Initialization for ES Users
+import { Carousel, initTE } from "tw-elements";
+initTE({ Carousel });
